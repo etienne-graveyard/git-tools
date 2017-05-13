@@ -31,3 +31,6 @@ mkdir -p ${FOLDER}
 # Clone the repos and go into the folder
 echo -e "\e[90m ➜ git clone $GITURL $FOLDERNAME\e[39m"
 git clone --recursive $GITURL $FOLDERNAME
+
+# onpen in VSCode
+code $FOLDERNAME
