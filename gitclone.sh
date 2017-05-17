@@ -12,7 +12,7 @@ fi
 
 
 # Variable definitions
-BASEPATH="/Users/etienne-dldc/Workspace"
+BASEPATH="~/Workspace"
 GITURL=$1
 GITNAME=${GITURL##*/}
 GIT=${GITURL#*@}
@@ -33,4 +33,4 @@ echo -e "\e[90m ➜ git clone $GITURL $FOLDERNAME\e[39m"
 git clone --recursive $GITURL $FOLDERNAME
 
 # onpen in VSCode
-code $FOLDERNAME
+code-insiders $FOLDERNAME
