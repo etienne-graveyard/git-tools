@@ -6,7 +6,7 @@
 
 if [ "$1" = "" ]
 then
-  echo -e "\e[33mUsage: bash $0 <git repositiry clone URL>\e[39m" 1>&2
+  echo -e "Usage: bash $0 <git repositiry clone URL>" 1>&2
   exit 1
 fi
 
@@ -29,7 +29,7 @@ FOLDERNAME="${FOLDER}/${REPO}"
 mkdir -p ${FOLDER}
 
 # Clone the repos and go into the folder
-echo -e "\e[90m ➜ git clone $GITURL $FOLDERNAME\e[39m"
+echo -e " ➜ git clone $GITURL $FOLDERNAME"
 git clone --recursive $GITURL $FOLDERNAME
 
 # onpen in VSCode
