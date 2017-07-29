@@ -12,7 +12,7 @@ fi
 
 
 # Variable definitions
-BASEPATH="Workspace"
+BASEPATH="~/Workspace"
 GITURL=$1
 GITNAME=${GITURL##*/}
 GIT=${GITURL#*@}
