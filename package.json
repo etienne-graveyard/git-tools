@@ -1,0 +1,25 @@
+{
+  "name": "git-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getAllGist.js",
+  "scripts": {
+    "start": "node ./getAllGist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etienne-dldc/git-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etienne-dldc/git-tools/issues"
+  },
+  "homepage": "https://github.com/etienne-dldc/git-tools#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "fs-jetpack": "^1.2.0",
+    "lodash": "^4.17.4"
+  }
+}
